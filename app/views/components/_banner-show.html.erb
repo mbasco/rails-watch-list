@@ -3,6 +3,7 @@
       <div class="animated-banner-text">
       <div><h1 class="neon-small"><%= pluralize(@list.movies.size, 'movie') %></h1></div>
       <div><h1 class="neon-small"><%= @list.name %></h1></div>
+      <span class="mb-2 d-block"><small><em class="text-muted"><%= "You haven't saved any movies yet." if @list.movies.empty? %></em></small></span>
       </div>
     </div>
 </div>

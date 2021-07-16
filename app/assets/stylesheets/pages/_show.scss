@@ -4,6 +4,17 @@
     list-style-type: none;
     font-family: $button-font;
     font-size: 16px;
-
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 24px;
     
+}
+
+.btn {
+    color: $red;
+}
+
+.btn:hover {
+    color: $dark-red;
 }
