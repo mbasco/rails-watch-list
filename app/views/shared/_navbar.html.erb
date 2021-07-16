@@ -1,23 +1,14 @@
-<div style="navbar: auto;">
-  <div class="navbar-watch navbar-expand-sm fixed-top">
-      
-      
-    <div class="d-flex" style="navbar: auto;">
-      <a href="/"><%= render 'shared/logo' %>
+
+  <nav class="navbar fixed-top">
+      <div class= "logo d-flex flex-start">
+        <li><a href="/"><%= render 'shared/logo' %></li>
       </div>
-      
-      <div class="d-flex" style="navbar: auto;">
-          <form class="/movies" accept-charset="UTF-8" method="get" style="navbar: auto;">
-              <input type="text" name="query" id="query" placeholder="Search a movie" class="p-2 pr-4" style="navbar: auto;">
-              <input type="submit" name="commit" value="Search" class="btn-nav m-2 p-2 px-4"  data-disable-with="Search" style="navbar: auto;">
-          </form>
+      <div class= "logo d-flex flex-end">
+        <%= link_to 'Create a list', new_list_path, class: "btn-create m-2 p-2 px-4" %>
+        <form class="/movies" accept-charset="UTF-8" method="get" style="navbar: auto;">
+          <input type="text" name="query" id="query" placeholder="Search a movie" class="search-engine m-2 p-2 px-4 " style="navbar: auto;">
+          <input type="submit" name="commit" value="Search" class="btn-search m-2 p-2 px-4"  data-disable-with="Search" style="navbar: auto;">
+        </form>
       </div>
-      
-      <div class="d-flex justify-content-center align items-right" style="navbar: auto;">
-          <%= link_to 'Create a list', new_list_path, class: "nav-link m-2 p-2 px-4" %>
-      </div>
-        
-      
-    </div>
-  </div>
-</div>
+  </nav>
+

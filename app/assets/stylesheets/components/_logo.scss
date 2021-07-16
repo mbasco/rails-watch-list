@@ -1,86 +1,105 @@
-.a{
-  position:absolute;
-  color:#ff004e;
-  font-size:24px;
-}
-
-
-.holder{
+.logo-holder{
   position:relative;
   height:50px;
   width:50px;
-  border-radius:90%;
-  border:4px double #ff004e;
+  border-radius:80%;
   box-shadow:0px 0px 30px #ff004e, 0px 0px 40px #ff004e, 0px 0px 20px #ff004e;
   -webkit-animation:glow 5s infinite ease-in-out;
 }
 
-
-.thing1 {
-  
+.fas{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 30% 30%;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.774);
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px red,
+    0 0 80px red,
+    0 0 90px red,
+    0 0 100px red,
+    0 0 150px red;
 }
 
-.thing2{
+.circle2{
   -webkit-transform:rotate(45deg);
   -moz-transform:rotate(45deg);
   -ms-transform:rotate(45deg);
   -o-transform:rotate(45deg);
   transform:rotate(45deg);
   -webkit-animation-delay:100ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
-.thing3{
+.circle3{
   -webkit-transform:rotate(90deg);
   -moz-transform:rotate(90deg);
   -ms-transform:rotate(90deg);
   -o-transform:rotate(90deg);
   transform:rotate(90deg);
   -webkit-animation-delay:200ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
 
-.thing4{
+.circle4{
   -webkit-transform:rotate(135deg);
   -moz-transform:rotate(135deg);
   -ms-transform:rotate(135deg);
   -o-transform:rotate(135deg);
   transform:rotate(135deg);
   -webkit-animation-delay:300ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
 
-.thing5{
+.circle5{
   -webkit-transform:rotate(180deg);
   -moz-transform:rotate(180deg);
   -ms-transform:rotate(180deg);
   -o-transform:rotate(180deg) ;
   transform:rotate(180deg);
   -webkit-animation-delay:400ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
 
 
-.thing6{
+.circle6{
   -webkit-transform:rotate(225deg);
   -moz-transform:rotate(225deg);
   -ms-transform:rotate(225deg);
   -o-transform:rotate(225deg);
   transform:rotate(225deg);
   -webkit-animation-delay:500ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
 
-.thing7{
+.circle7{
   -webkit-transform:rotate(270deg);
   -moz-transform:rotate(270deg);
   -ms-transform:rotate(270deg);
   -o-transform:rotate(270deg);
   transform:rotate(270deg);
   -webkit-animation-delay:600ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
 
-.thing8{
+.circle8{
   -webkit-transform:rotate(315deg);
   -moz-transform:rotate(315deg);
   -ms-transform:rotate(315deg);
   -o-transform:rotate(315deg);
   transform:rotate(315deg);
   -webkit-animation-delay:700ms;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+  -webkit-mask-size: cover; 
 }
 
 @-webkit-keyframes pulse {
